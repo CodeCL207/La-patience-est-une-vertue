@@ -72,7 +72,7 @@
 
   .button-rickroll {
     position: fixed;
-    bottom: 350px;
+    bottom: 300px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
@@ -80,7 +80,7 @@
 
   .button-pancake {
     position: fixed;
-    bottom: 275px;
+    bottom: 225px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
