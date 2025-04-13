@@ -63,10 +63,18 @@
   background-color: #b39282;
 }
 
-.button-rickroll,
+.button-rickroll{
+  position: fixed;
+  left: 10%;
+  transform: translateX(-50%);
+  z-index: 10000;
+  width: fit-content;
+  max-width: 90vw;
+}
+
 .button-pancake {
   position: fixed;
-  left: 50%;
+  left: 25%;
   transform: translateX(-50%);
   z-index: 10000;
   width: fit-content;
@@ -74,11 +82,11 @@
 }
 
 .button-rickroll {
-  bottom: 35vh;
+  bottom: 5vh;
 }
 
 .button-pancake {
-  bottom: 29vh;
+  bottom: 5vh;
 }
 
 .container {
