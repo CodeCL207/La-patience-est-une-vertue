@@ -65,7 +65,7 @@
 
 .button-rickroll{
   position: fixed;
-  left: 10%;
+  left: 25%;
   transform: translateX(-50%);
   z-index: 10000;
   width: fit-content;
@@ -74,7 +74,7 @@
 
 .button-pancake {
   position: fixed;
-  left: 25%;
+  left: 75%;
   transform: translateX(-50%);
   z-index: 10000;
   width: fit-content;
@@ -93,7 +93,7 @@
   --uib-size: 5vw;
   --uib-color: black;
   --uib-speed: 1s;
-  --uib-stroke: 3px;
+  --uib-stroke: 5px;
   position: relative;
   display: flex;
   align-items: center;
