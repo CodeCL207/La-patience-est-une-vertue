@@ -70,9 +70,17 @@
     z-index: 1000;
   }
 
-  .button-container {
+  .button-rickroll {
     position: fixed;
     bottom: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+  }
+
+  .button-pancake {
+    position: fixed;
+    bottom: 300px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
