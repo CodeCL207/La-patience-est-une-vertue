@@ -57,16 +57,29 @@
 
   .button-link {
     display: inline-block;
-    background-color: #4CAF50;
-    color: white;
+    margin-top: 20px;
     padding: 10px 20px;
+    background-color: #000000;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
     font-size: 16px;
+    position: relative;
+    z-index: 1000;
+  }
+
+  .button-container {
+    position: fixed;
+    bottom: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
   }
   
   .button-link:hover {
-    background-color: #45a049;
+    background-color: #c0392b;
   }
 
   .container {
