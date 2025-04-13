@@ -55,6 +55,20 @@
     }
   }
 
+  .button-link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button-link:hover {
+    background-color: #45a049;
+  }
+
   .container {
     --uib-size: 40px;
     --uib-color: black;
